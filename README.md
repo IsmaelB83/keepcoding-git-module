@@ -1,5 +1,5 @@
-#Practica GIT. Ejercicio 1
-##Alumno: Ismael Bernal - WEB VII
+# Practica GIT. Ejercicio 1
+## Alumno: Ismael Bernal - WEB VII
 
 ## RESPUESTAS PRÁCTICA
 ### ¿Qué comando utilizaste en el paso 11? ¿Por qué? 
@@ -69,7 +69,6 @@
 
 -----
 ## RESTO DEL EJERCICIO COMPLETO
------
 
 
 ### 1) Crear un repositorio
