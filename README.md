@@ -5,7 +5,7 @@
 ### ¿Qué comando utilizaste en el paso 11? ¿Por qué? 
 **Comando:** git reset --hard HEAD~1
 
-> Explicación: La razón de utilizar es que reset es el comando que nos permite mover el puntero HEAD, y aplicando además el modificador --hard lo que hacemos es que el cambio afecte al working copy. Además con HEAD~1 lo que hago es mover el HEAD al commit inmediatamente anterior. Es decir, retrocedo el puntero HEAD, de tal forma que ahora apunta al parent. Por lo que estamos en el punto donde TODAVÍA no habíamos modificado git-nuestro.md
+> Explicación: La razón de utilizar reset es que es el comando que nos permite mover el puntero HEAD. Aplicando además el modificador --hard lo que hacemos es que el cambio afecte al working copy. Además con HEAD~1 lo que hago es mover el HEAD al commit inmediatamente anterior. Es decir, retrocedo el puntero HEAD, de tal forma que ahora apunta al parent. Por lo que estamos en el punto donde TODAVÍA no habíamos modificado git-nuestro.md
 
 ### ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué? 
 **Comandos:**
