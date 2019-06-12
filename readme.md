@@ -10,9 +10,9 @@
 ### ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué? 
 **Comandos:**
     Opcion a) git reset --hard HEAD@{1}
-    Opcion b) --> git reflog  ...y luego --> git reset --hard 3fc1756
+    Opcion b) --> git reflog  ...y luego --> git reset --hard 50a849e
 
-> Explicación: Ambas opciones son equivalentes. La primera opción lo que hace es mover el puntero HEAD al segundo resultado de git reflog. Es decir, vuelve al COMMIT que anteriormente tenía los cambios en git-nuestro.md (antes de deshacerlos en el paso 11). Otra opción sería ejecutar git reflog, y una vez vemos el listado de commits. Hacemos un git reset --hard sobre el hash que identifica el commit que tiene nuestros cambios sobre git-nuestro.md (en mi caso era el 3fc1756). Ambas opciones en este punto de la 'historia' del repositorio son equivalentes.
+> Explicación: Ambas opciones son equivalentes. La primera opción lo que hace es mover el puntero HEAD al segundo resultado de git reflog. Es decir, vuelve al COMMIT que anteriormente tenía los cambios en git-nuestro.md (antes de deshacerlos en el paso 11). Otra opción sería ejecutar git reflog, y una vez vemos el listado de commits. Hacemos un git reset --hard sobre el hash que identifica el commit que tiene nuestros cambios sobre git-nuestro.md (en mi caso era el 50a849e). Ambas opciones en este punto de la 'historia' del repositorio son equivalentes.
 
 ### El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
 **Comando:** git merge master
@@ -131,7 +131,7 @@
 ### 12) Rehacer el último commit (el que acabamos de deshacer)
 **Comandos:**
     Opcion a) git reset --hard HEAD@{1}
-    Opcion b) --> git reflog  ...y luego --> git reset --hard 3fc1756
+    Opcion b) --> git reflog  ...y luego --> git reset --hard 50a849e
 
 ### 13) Hacer un merge con ‘master’ (styled absorbe a master)
 **Comando:** git merge master
